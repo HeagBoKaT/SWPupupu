@@ -10,6 +10,7 @@
     Title="SWPupupu">
 
     <Window.SystemBackdrop>
+<<<<<<< HEAD
         <MicaBackdrop/>
     </Window.SystemBackdrop>
 
@@ -221,3 +222,12 @@
     </Grid>
 </Window>
 
+=======
+        <MicaBackdrop />
+    </Window.SystemBackdrop>
+
+    <Grid>
+
+    </Grid>
+</Window>
+>>>>>>> a13e272c2d7c60cc2e094009f9444e0dc1c8c0bb

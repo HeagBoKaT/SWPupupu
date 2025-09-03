@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Shapes;
 using SolidWorks.Interop.sldworks;
@@ -5,6 +6,25 @@ using SolidWorks.Interop.swconst;
 using System.Diagnostics;
 using HeagBoKaT;
 
+=======
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Navigation;
+using Windows.Foundation;
+using Windows.Foundation.Collections;
+
+// To learn more about WinUI, the WinUI project structure,
+// and more about our project templates, see: http://aka.ms/winui-project-info.
+>>>>>>> a13e272c2d7c60cc2e094009f9444e0dc1c8c0bb
 
 namespace SWPupupu
 {
@@ -17,6 +37,7 @@ namespace SWPupupu
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
         private ModelDoc2 SwAppFunc()
         {
             SldWorks swApp = (SldWorks)HeagBoKaT.HeagBoKaT.GetActiveObject("SldWorks.Application");
@@ -71,3 +92,7 @@ namespace SWPupupu
     }
 }
 
+=======
+    }
+}
+>>>>>>> a13e272c2d7c60cc2e094009f9444e0dc1c8c0bb
