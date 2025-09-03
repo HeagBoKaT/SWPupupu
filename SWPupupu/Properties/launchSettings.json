@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SWPupupu (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SWPupupu (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
