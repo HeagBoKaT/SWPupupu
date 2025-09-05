@@ -7,10 +7,10 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <Platforms>x64</Platforms>
 	<RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
-	  <AppxPackage>false</AppxPackage>
-	  <ApplicationType>Windows Store</ApplicationType>
-	  <WindowsPackageType>None</WindowsPackageType>
-	  <WinUISDKReferences>false</WinUISDKReferences>
+	<AppxPackage>false</AppxPackage>
+	<ApplicationType>Windows Store</ApplicationType>
+	<WindowsPackageType>None</WindowsPackageType>
+	<WinUISDKReferences>false</WinUISDKReferences>
 	  <!--<WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>-->
     <PublishProfile>win-$(Platform).pubxml</PublishProfile>
     <UseWinUI>true</UseWinUI>
@@ -37,11 +37,6 @@
     <Manifest Include="$(ApplicationManifest)" />
   </ItemGroup>
 
-  <!--
-    Defining the "Msix" ProjectCapability here allows the Single-project MSIX Packaging
-    Tools extension to be activated for this project even if the Windows App SDK Nuget
-    package has not yet been restored.
-  -->
   <ItemGroup Condition="'$(DisableMsixProjectCapabilityAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
     <ProjectCapability Include="Msix" />
   </ItemGroup>
